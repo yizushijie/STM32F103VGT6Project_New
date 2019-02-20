@@ -82,6 +82,9 @@
     <Filter Include="Application\LED">
       <UniqueIdentifier>{9DB5296C-0941-9730-1252-1A257E5CF330}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Application\MyMalloc">
+      <UniqueIdentifier>{66B5E9BC-5244-7386-FB62-8781E7D0832C}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Application\NRF2401">
       <UniqueIdentifier>{55459DE7-C1A6-7AF5-4A14-C1A7B674B1B4}</UniqueIdentifier>
     </Filter>
@@ -395,6 +398,9 @@
     </ClInclude>
     <ClInclude Include="..\Application\LED\led_task.h">
       <Filter>Application\LED</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Application\MyMalloc\my_malloc.h">
+      <Filter>Application\MyMalloc</Filter>
     </ClInclude>
     <ClInclude Include="..\Application\NRF2401\nrf2401_cfg.h">
       <Filter>Application\NRF2401</Filter>
@@ -886,6 +892,9 @@
     </ClCompile>
     <ClCompile Include="..\Application\LED\led_task.c">
       <Filter>Application\LED</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Application\MyMalloc\my_malloc.c">
+      <Filter>Application\MyMalloc</Filter>
     </ClCompile>
     <ClCompile Include="..\Application\NRF2401\nrf2401_cfg.c">
       <Filter>Application\NRF2401</Filter>

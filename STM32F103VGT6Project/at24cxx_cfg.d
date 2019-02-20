@@ -61,4 +61,5 @@ stm32f103vgt6project/at24cxx_cfg.o: ..\Application\AT24Cxx\at24cxx_cfg.c \
   ..\Application\Delay\delay_lib.h ..\Application\Delay\delay_cfg.h \
   ..\Application\SysTick\systick_task.h \
   ..\Application\SysTick\systick_lib.h \
-  ..\Application\SysTick\systick_cfg.h
+  ..\Application\SysTick\systick_cfg.h \
+  ..\Application\MyMalloc\my_malloc.h

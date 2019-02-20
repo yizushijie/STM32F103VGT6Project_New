@@ -97,6 +97,7 @@
 "stm32f103vgt6project\led_cfg.o"
 "stm32f103vgt6project\led_lib.o"
 "stm32f103vgt6project\led_task.o"
+"stm32f103vgt6project\my_malloc.o"
 "stm32f103vgt6project\nrf2401_cfg.o"
 "stm32f103vgt6project\nrf2401_lib.o"
 "stm32f103vgt6project\nrf2401_task.o"
@@ -115,6 +116,9 @@
 "stm32f103vgt6project\power_cfg.o"
 "stm32f103vgt6project\power_lib.o"
 "stm32f103vgt6project\power_task.o"
+"stm32f103vgt6project\pvd_cfg.o"
+"stm32f103vgt6project\pvd_lib.o"
+"stm32f103vgt6project\pvd_task.o"
 "stm32f103vgt6project\random_cfg.o"
 "stm32f103vgt6project\random_lib.o"
 "stm32f103vgt6project\random_task.o"
@@ -152,10 +156,7 @@
 "stm32f103vgt6project\wwdg_cfg.o"
 "stm32f103vgt6project\wwdg_lib.o"
 "stm32f103vgt6project\wwdg_task.o"
-"stm32f103vgt6project\pvd_cfg.o"
-"stm32f103vgt6project\pvd_lib.o"
-"stm32f103vgt6project\pvd_task.o"
 --library_type=microlib --strict --scatter "STM32F103VGT6Project\STM32F103VGT6Project.sct"
---summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--remove --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list "STM32F103VGT6Project.map" -o STM32F103VGT6Project\STM32F103VGT6Project.axf
