@@ -61,9 +61,6 @@
     <Filter Include="Application\HMC830">
       <UniqueIdentifier>{9B365CC2-871A-1D18-F07A-176BDC7D079A}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Application\I2C">
-      <UniqueIdentifier>{66A6296C-D231-9730-DB42-1A25474DF330}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Application\IAP">
       <UniqueIdentifier>{62A8296C-CE33-9730-D744-1A25434FF330}</UniqueIdentifier>
     </Filter>
@@ -165,6 +162,9 @@
     </Filter>
     <Filter Include="STM32F1xx">
       <UniqueIdentifier>{0572FADD-71DC-AE54-BA1A-60FA26C48CA9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\HMC830\I2C">
+      <UniqueIdentifier>{66A6296C-D231-9730-DB42-1A25474DF330}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -337,13 +337,13 @@
       <Filter>Application\HMC830</Filter>
     </ClInclude>
     <ClInclude Include="..\Application\I2C\i2c_cfg.h">
-      <Filter>Application\I2C</Filter>
+      <Filter>Application\HMC830\I2C</Filter>
     </ClInclude>
     <ClInclude Include="..\Application\I2C\i2c_lib.h">
-      <Filter>Application\I2C</Filter>
+      <Filter>Application\HMC830\I2C</Filter>
     </ClInclude>
     <ClInclude Include="..\Application\I2C\i2c_task.h">
-      <Filter>Application\I2C</Filter>
+      <Filter>Application\HMC830\I2C</Filter>
     </ClInclude>
     <ClInclude Include="..\Application\IAP\iap_cfg.h">
       <Filter>Application\IAP</Filter>
@@ -831,13 +831,13 @@
       <Filter>Application\HMC830</Filter>
     </ClCompile>
     <ClCompile Include="..\Application\I2C\i2c_cfg.c">
-      <Filter>Application\I2C</Filter>
+      <Filter>Application\HMC830\I2C</Filter>
     </ClCompile>
     <ClCompile Include="..\Application\I2C\i2c_lib.c">
-      <Filter>Application\I2C</Filter>
+      <Filter>Application\HMC830\I2C</Filter>
     </ClCompile>
     <ClCompile Include="..\Application\I2C\i2c_task.c">
-      <Filter>Application\I2C</Filter>
+      <Filter>Application\HMC830\I2C</Filter>
     </ClCompile>
     <ClCompile Include="..\Application\IAP\iap_cfg.c">
       <Filter>Application\IAP</Filter>
