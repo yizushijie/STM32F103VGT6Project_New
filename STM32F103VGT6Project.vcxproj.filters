@@ -273,7 +273,7 @@
     <ClInclude Include="..\Application\DS18B20\ds18b20_task.h">
       <Filter>Application\DS18B20</Filter>
     </ClInclude>
-    <ClInclude Include="..\Application\Decode\decode_cfg.h">
+    <ClInclude Include="..\Application\Decode\decode_cfg_new.h">
       <Filter>Application\Decode</Filter>
     </ClInclude>
     <ClInclude Include="..\Application\Decode\decode_lib.h">
@@ -767,7 +767,7 @@
     <ClCompile Include="..\Application\DS18B20\ds18b20_task.c">
       <Filter>Application\DS18B20</Filter>
     </ClCompile>
-    <ClCompile Include="..\Application\Decode\decode_cfg.c">
+    <ClCompile Include="..\Application\Decode\decode_cfg_new.c">
       <Filter>Application\Decode</Filter>
     </ClCompile>
     <ClCompile Include="..\Application\Decode\decode_lib.c">

@@ -207,8 +207,8 @@ I (..\Application\CSS\css_task.h)(0x5C177B6D)
 I (..\Application\CSS\css_lib.h)(0x5C177B6D)
 I (..\Application\CSS\css_cfg.h)(0x5C177B6D)
 I (..\Application\Decode\decode_task.h)(0x5C1CB00F)
-I (..\Application\Decode\decode_lib.h)(0x5C1CB00F)
-I (..\Application\Decode\decode_cfg.h)(0x5C3C0301)
+I (..\Application\Decode\decode_lib.h)(0x5C6CF5D4)
+I (..\Application\Decode\decode_cfg_new.h)(0x5C6D3B54)
 I (..\Application\Timer\timer_task.h)(0x5C1779D7)
 I (..\Application\Timer\timer_lib.h)(0x5C1779D6)
 I (..\Application\Timer\timer_cfg.h)(0x5C6C15C0)
@@ -1668,7 +1668,7 @@ I (..\Application\SPI\spi_cfg.h)(0x5C398533)
 F (..\Application\ADS8688\ads8688_cfg.h)(0x5C6414E3)()
 F (..\Application\ADS8688\ads8688_lib.h)(0x5C1778B2)()
 F (..\Application\ADS8688\ads8688_task.h)(0x5C1778B2)()
-F (..\Application\APP\main.c)(0x5C6CD14C)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Complier -I ../Doc -I ../STM32F1xx -I ../Drivers/CMSIS/Include -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Src -I ../Application/APP -I ../Application/IWDG -I ../Application/AD5593 -I ../Application/AT24Cxx -I ../Application/CRC -I ../Application/Delay -I ../Application/DHT11 -I ../Application/DS18B20 -I ../Application/GPIO -I ../Application/I2C -I ../Application/OneWire -I ../Application/PCF8563 -I ../Application/Random -I ../Application/SysTick -I ../Application/USART -I ../Application/WM8510 -I ../Application/HMC830 -I ../Application/ISP -I ../Application/SPI -I ../Application/LED -I ../Application/ADC -I ../Application/Timer -I ../Application/Key -I ../Application/Power -I ../Application/EEPROM -I ../Application/RFASK -I ../Application/FLASH -I ../Application/NRF2401 -I ../Application/LCD1602 -I ../Application/BKP -I ../Application/SHT2x -I ../Application/Decode -I ../Application/CSS -I ../Application/ADS8688 -I ../Application/IAP -I ../Application/OLED -I ../Application/WWDG -I ../Application/W25Qxx -I ../Application/RFASKHW -I ../Application/DS1302 -I ../Application/ENC28J60 -I ../Application/PID -I ../Application/ADS1256 -I ../Application/RTC -I ../Application/PVD -I ../Application/MyMalloc -fgnu-I./RTE/_STM32F103VGT6Project-ID:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-ID:/Keil_v5/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F10X_XL -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER -DHSE_VALUE="8000000" -DSTM32F103xG-o stm32f103vgt6project/main.o -MD)
+F (..\Application\APP\main.c)(0x5C6D14D1)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Complier -I ../Doc -I ../STM32F1xx -I ../Drivers/CMSIS/Include -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Src -I ../Application/APP -I ../Application/IWDG -I ../Application/AD5593 -I ../Application/AT24Cxx -I ../Application/CRC -I ../Application/Delay -I ../Application/DHT11 -I ../Application/DS18B20 -I ../Application/GPIO -I ../Application/I2C -I ../Application/OneWire -I ../Application/PCF8563 -I ../Application/Random -I ../Application/SysTick -I ../Application/USART -I ../Application/WM8510 -I ../Application/HMC830 -I ../Application/ISP -I ../Application/SPI -I ../Application/LED -I ../Application/ADC -I ../Application/Timer -I ../Application/Key -I ../Application/Power -I ../Application/EEPROM -I ../Application/RFASK -I ../Application/FLASH -I ../Application/NRF2401 -I ../Application/LCD1602 -I ../Application/BKP -I ../Application/SHT2x -I ../Application/Decode -I ../Application/CSS -I ../Application/ADS8688 -I ../Application/IAP -I ../Application/OLED -I ../Application/WWDG -I ../Application/W25Qxx -I ../Application/RFASKHW -I ../Application/DS1302 -I ../Application/ENC28J60 -I ../Application/PID -I ../Application/ADS1256 -I ../Application/RTC -I ../Application/PVD -I ../Application/MyMalloc -fgnu-I./RTE/_STM32F103VGT6Project-ID:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-ID:/Keil_v5/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F10X_XL -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER -DHSE_VALUE="8000000" -DSTM32F103xG-o stm32f103vgt6project/main.o -MD)
 I (..\Application\APP\main.h)(0x5C1778B6)
 I (..\Application\APP\config.h)(0x5C6B9596)
 I (..\Complier\complier_lib.h)(0x5C177BD8)
@@ -1767,8 +1767,8 @@ I (..\Application\CSS\css_task.h)(0x5C177B6D)
 I (..\Application\CSS\css_lib.h)(0x5C177B6D)
 I (..\Application\CSS\css_cfg.h)(0x5C177B6D)
 I (..\Application\Decode\decode_task.h)(0x5C1CB00F)
-I (..\Application\Decode\decode_lib.h)(0x5C1CB00F)
-I (..\Application\Decode\decode_cfg.h)(0x5C3C0301)
+I (..\Application\Decode\decode_lib.h)(0x5C6CF5D4)
+I (..\Application\Decode\decode_cfg_new.h)(0x5C6D3B54)
 I (..\Application\Timer\timer_task.h)(0x5C1779D7)
 I (..\Application\Timer\timer_lib.h)(0x5C1779D6)
 I (..\Application\Timer\timer_cfg.h)(0x5C6C15C0)
@@ -2631,112 +2631,9 @@ I (..\Application\IWDG\iwdg_task.h)(0x5C177938)
 I (..\Application\IWDG\iwdg_lib.h)(0x5C177937)
 I (..\Application\IWDG\iwdg_cfg.h)(0x5C177935)
 F (..\Application\CSS\css_task.h)(0x5C177B6D)()
-F (..\Application\Decode\decode_cfg.c)(0x5C6BABD7)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Complier -I ../Doc -I ../STM32F1xx -I ../Drivers/CMSIS/Include -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Src -I ../Application/APP -I ../Application/IWDG -I ../Application/AD5593 -I ../Application/AT24Cxx -I ../Application/CRC -I ../Application/Delay -I ../Application/DHT11 -I ../Application/DS18B20 -I ../Application/GPIO -I ../Application/I2C -I ../Application/OneWire -I ../Application/PCF8563 -I ../Application/Random -I ../Application/SysTick -I ../Application/USART -I ../Application/WM8510 -I ../Application/HMC830 -I ../Application/ISP -I ../Application/SPI -I ../Application/LED -I ../Application/ADC -I ../Application/Timer -I ../Application/Key -I ../Application/Power -I ../Application/EEPROM -I ../Application/RFASK -I ../Application/FLASH -I ../Application/NRF2401 -I ../Application/LCD1602 -I ../Application/BKP -I ../Application/SHT2x -I ../Application/Decode -I ../Application/CSS -I ../Application/ADS8688 -I ../Application/IAP -I ../Application/OLED -I ../Application/WWDG -I ../Application/W25Qxx -I ../Application/RFASKHW -I ../Application/DS1302 -I ../Application/ENC28J60 -I ../Application/PID -I ../Application/ADS1256 -I ../Application/RTC -I ../Application/PVD -I ../Application/MyMalloc -fgnu-I./RTE/_STM32F103VGT6Project-ID:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-ID:/Keil_v5/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F10X_XL -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER -DHSE_VALUE="8000000" -DSTM32F103xG-o stm32f103vgt6project/decode_cfg.o -MD)
-I (..\Application\Decode\decode_cfg.h)(0x5C3C0301)
-I (..\Complier\complier_lib.h)(0x5C177BD8)
-I (..\Complier\complier_cfg.h)(0x5C39A408)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5B739900)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5B739900)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5B739900)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5B739900)
-I (D:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5B739900)
-I (D:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x5B739900)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5B739900)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5B739900)
-I (..\STM32F1xx\stm32_cfg.h)(0x5C3D6BDC)
-I (..\STM32F1xx\stm32f1xx.h)(0x5C177A86)
-I (..\STM32F1xx\stm32f103xg.h)(0x5C177A83)
-I (..\Drivers\CMSIS\Include\core_cm3.h)(0x5BF4E2B6)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5AB24248)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5AB24248)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5B2225E3)
-I (..\STM32F1xx\system_stm32f1xx.h)(0x5C177A1E)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C177A41)
-I (..\STM32F1xx\stm32f1xx_hal_conf.h)(0x5AE71B26)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x5BF35E2A)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x5BF4052B)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x5BF35E2A)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x5BF35E2A)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x5BF35E2A)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x5BF4052C)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x5BF35E2A)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x5C177A43)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x5BF4052D)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x5BF4052F)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x5BF35E2A)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x5BF35E2A)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_sd.h)(0x5BF40530)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_sdmmc.h)(0x5C177A5E)
-I (..\STM32F1xx\stm32f1xx_ll.h)(0x5BAC6F0E)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_adc.h)(0x5C3C0545)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_bus.h)(0x5C177A49)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_cortex.h)(0x5C177A4B)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_crc.h)(0x5C177A4D)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_dac.h)(0x5BF35E2A)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_dma.h)(0x5C177A4F)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_exti.h)(0x5C177A51)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_fsmc.h)(0x5BF35E2A)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_gpio.h)(0x5C177A54)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_i2c.h)(0x5BF35E2A)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_iwdg.h)(0x5C177A56)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_pwr.h)(0x5C3597E7)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_rcc.h)(0x5C177A5A)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_rtc.h)(0x5C177A5C)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_spi.h)(0x5C177A60)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_system.h)(0x5C177A63)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_tim.h)(0x5C177A65)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_usart.h)(0x5C177A67)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_utils.h)(0x5C177A69)
-I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_wwdg.h)(0x5C177A6B)
-I (..\Application\IWDG\iwdg_task.h)(0x5C177938)
-I (..\Application\IWDG\iwdg_lib.h)(0x5C177937)
-I (..\Application\IWDG\iwdg_cfg.h)(0x5C177935)
-I (..\Application\GPIO\gpio_task.h)(0x5C177905)
-I (..\Application\GPIO\gpio_lib.h)(0x5C177904)
-I (..\Application\GPIO\gpio_cfg.h)(0x5C3C0333)
-I (..\Application\Timer\timer_task.h)(0x5C1779D7)
-I (..\Application\Timer\timer_lib.h)(0x5C1779D6)
-I (..\Application\Timer\timer_cfg.h)(0x5C6C15C0)
-I (..\Application\SysTick\systick_task.h)(0x5C3C0468)
-I (..\Application\SysTick\systick_lib.h)(0x5C3C0464)
-I (..\Application\SysTick\systick_cfg.h)(0x5C68135B)
-I (..\Application\Delay\delay_task.h)(0x5C177881)
-I (..\Application\Delay\delay_lib.h)(0x5C177881)
-I (..\Application\Delay\delay_cfg.h)(0x5C177881)
-I (..\Application\RFASKHW\rfaskhw_cfg.h)(0x5C3C0410)
-I (..\Application\RFASK\rfask_task.h)(0x5C1B5936)
-I (..\Application\RFASK\rfask_lib.h)(0x5C177998)
-I (..\Application\RFASK\rfask_cfg.h)(0x5C3C0406)
-I (..\Application\WM8510\wm8510_task.h)(0x5C3C04CC)
-I (..\Application\WM8510\wm8510_lib.h)(0x5C3C04C8)
-I (..\Application\WM8510\wm8510_cfg.h)(0x5C6BCD10)
-I (..\Application\I2C\i2c_task.h)(0x5C39A7F4)
-I (..\Application\I2C\i2c_lib.h)(0x5C39A7F5)
-I (..\Application\I2C\i2c_cfg.h)(0x5C39ED6A)
-I (..\Application\USART\usart_task.h)(0x5C3C04A2)
-I (..\Application\USART\usart_lib.h)(0x5C3C049F)
-I (..\Application\USART\usart_cfg.h)(0x5C3C0493)
-I (..\Application\CRC\crc_task.h)(0x5C177B6D)
-I (..\Application\CRC\crc_lib.h)(0x5C177B6D)
-I (..\Application\CRC\crc_cfg.h)(0x5C177B6D)
-I (..\Application\Power\power_task.h)(0x5C17798F)
-I (..\Application\Power\power_lib.h)(0x5C17798D)
-I (..\Application\Power\power_cfg.h)(0x5C17798B)
-I (..\Application\ADC\adc_task.h)(0x5C1778AD)
-I (..\Application\ADC\adc_lib.h)(0x5C1778AC)
-I (..\Application\ADC\adc_cfg.h)(0x5C1778AB)
-I (..\Application\LED\led_task.h)(0x5C177958)
-I (..\Application\LED\led_lib.h)(0x5C177956)
-I (..\Application\LED\led_cfg.h)(0x5C177954)
-I (..\Application\Key\key_task.h)(0x5C177943)
-I (..\Application\Key\key_lib.h)(0x5C177942)
-I (..\Application\Key\key_cfg.h)(0x5C433649)
-I (..\Application\Decode\decode_task.h)(0x5C1CB00F)
-I (..\Application\Decode\decode_lib.h)(0x5C1CB00F)
-F (..\Application\Decode\decode_cfg.h)(0x5C3C0301)()
 F (..\Application\Decode\decode_lib.c)(0x5C3C02FD)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Complier -I ../Doc -I ../STM32F1xx -I ../Drivers/CMSIS/Include -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Src -I ../Application/APP -I ../Application/IWDG -I ../Application/AD5593 -I ../Application/AT24Cxx -I ../Application/CRC -I ../Application/Delay -I ../Application/DHT11 -I ../Application/DS18B20 -I ../Application/GPIO -I ../Application/I2C -I ../Application/OneWire -I ../Application/PCF8563 -I ../Application/Random -I ../Application/SysTick -I ../Application/USART -I ../Application/WM8510 -I ../Application/HMC830 -I ../Application/ISP -I ../Application/SPI -I ../Application/LED -I ../Application/ADC -I ../Application/Timer -I ../Application/Key -I ../Application/Power -I ../Application/EEPROM -I ../Application/RFASK -I ../Application/FLASH -I ../Application/NRF2401 -I ../Application/LCD1602 -I ../Application/BKP -I ../Application/SHT2x -I ../Application/Decode -I ../Application/CSS -I ../Application/ADS8688 -I ../Application/IAP -I ../Application/OLED -I ../Application/WWDG -I ../Application/W25Qxx -I ../Application/RFASKHW -I ../Application/DS1302 -I ../Application/ENC28J60 -I ../Application/PID -I ../Application/ADS1256 -I ../Application/RTC -I ../Application/PVD -I ../Application/MyMalloc -fgnu-I./RTE/_STM32F103VGT6Project-ID:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-ID:/Keil_v5/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F10X_XL -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER -DHSE_VALUE="8000000" -DSTM32F103xG-o stm32f103vgt6project/decode_lib.o -MD)
-I (..\Application\Decode\decode_lib.h)(0x5C1CB00F)
-I (..\Application\Decode\decode_cfg.h)(0x5C3C0301)
+I (..\Application\Decode\decode_lib.h)(0x5C6CF5D4)
+I (..\Application\Decode\decode_cfg_new.h)(0x5C6D3B54)
 I (..\Complier\complier_lib.h)(0x5C177BD8)
 I (..\Complier\complier_cfg.h)(0x5C39A408)
 I (D:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5B739900)
@@ -2836,11 +2733,11 @@ I (..\Application\Key\key_task.h)(0x5C177943)
 I (..\Application\Key\key_lib.h)(0x5C177942)
 I (..\Application\Key\key_cfg.h)(0x5C433649)
 I (..\Application\Decode\decode_task.h)(0x5C1CB00F)
-F (..\Application\Decode\decode_lib.h)(0x5C1CB00F)()
+F (..\Application\Decode\decode_lib.h)(0x5C6CF5D4)()
 F (..\Application\Decode\decode_task.c)(0x5C3C02FF)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Complier -I ../Doc -I ../STM32F1xx -I ../Drivers/CMSIS/Include -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Src -I ../Application/APP -I ../Application/IWDG -I ../Application/AD5593 -I ../Application/AT24Cxx -I ../Application/CRC -I ../Application/Delay -I ../Application/DHT11 -I ../Application/DS18B20 -I ../Application/GPIO -I ../Application/I2C -I ../Application/OneWire -I ../Application/PCF8563 -I ../Application/Random -I ../Application/SysTick -I ../Application/USART -I ../Application/WM8510 -I ../Application/HMC830 -I ../Application/ISP -I ../Application/SPI -I ../Application/LED -I ../Application/ADC -I ../Application/Timer -I ../Application/Key -I ../Application/Power -I ../Application/EEPROM -I ../Application/RFASK -I ../Application/FLASH -I ../Application/NRF2401 -I ../Application/LCD1602 -I ../Application/BKP -I ../Application/SHT2x -I ../Application/Decode -I ../Application/CSS -I ../Application/ADS8688 -I ../Application/IAP -I ../Application/OLED -I ../Application/WWDG -I ../Application/W25Qxx -I ../Application/RFASKHW -I ../Application/DS1302 -I ../Application/ENC28J60 -I ../Application/PID -I ../Application/ADS1256 -I ../Application/RTC -I ../Application/PVD -I ../Application/MyMalloc -fgnu-I./RTE/_STM32F103VGT6Project-ID:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-ID:/Keil_v5/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F10X_XL -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER -DHSE_VALUE="8000000" -DSTM32F103xG-o stm32f103vgt6project/decode_task.o -MD)
 I (..\Application\Decode\decode_task.h)(0x5C1CB00F)
-I (..\Application\Decode\decode_lib.h)(0x5C1CB00F)
-I (..\Application\Decode\decode_cfg.h)(0x5C3C0301)
+I (..\Application\Decode\decode_lib.h)(0x5C6CF5D4)
+I (..\Application\Decode\decode_cfg_new.h)(0x5C6D3B54)
 I (..\Complier\complier_lib.h)(0x5C177BD8)
 I (..\Complier\complier_cfg.h)(0x5C39A408)
 I (D:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5B739900)
@@ -2940,6 +2837,109 @@ I (..\Application\Key\key_task.h)(0x5C177943)
 I (..\Application\Key\key_lib.h)(0x5C177942)
 I (..\Application\Key\key_cfg.h)(0x5C433649)
 F (..\Application\Decode\decode_task.h)(0x5C1CB00F)()
+F (..\Application\Decode\decode_cfg_new.c)(0x5C6D38D7)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Complier -I ../Doc -I ../STM32F1xx -I ../Drivers/CMSIS/Include -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Src -I ../Application/APP -I ../Application/IWDG -I ../Application/AD5593 -I ../Application/AT24Cxx -I ../Application/CRC -I ../Application/Delay -I ../Application/DHT11 -I ../Application/DS18B20 -I ../Application/GPIO -I ../Application/I2C -I ../Application/OneWire -I ../Application/PCF8563 -I ../Application/Random -I ../Application/SysTick -I ../Application/USART -I ../Application/WM8510 -I ../Application/HMC830 -I ../Application/ISP -I ../Application/SPI -I ../Application/LED -I ../Application/ADC -I ../Application/Timer -I ../Application/Key -I ../Application/Power -I ../Application/EEPROM -I ../Application/RFASK -I ../Application/FLASH -I ../Application/NRF2401 -I ../Application/LCD1602 -I ../Application/BKP -I ../Application/SHT2x -I ../Application/Decode -I ../Application/CSS -I ../Application/ADS8688 -I ../Application/IAP -I ../Application/OLED -I ../Application/WWDG -I ../Application/W25Qxx -I ../Application/RFASKHW -I ../Application/DS1302 -I ../Application/ENC28J60 -I ../Application/PID -I ../Application/ADS1256 -I ../Application/RTC -I ../Application/PVD -I ../Application/MyMalloc -fgnu-I./RTE/_STM32F103VGT6Project-ID:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-ID:/Keil_v5/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F10X_XL -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER -DHSE_VALUE="8000000" -DSTM32F103xG-o stm32f103vgt6project/decode_cfg_new.o -MD)
+I (..\Application\Decode\decode_cfg_new.h)(0x5C6D3B54)
+I (..\Complier\complier_lib.h)(0x5C177BD8)
+I (..\Complier\complier_cfg.h)(0x5C39A408)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5B739900)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5B739900)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5B739900)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5B739900)
+I (D:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5B739900)
+I (D:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x5B739900)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5B739900)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5B739900)
+I (..\STM32F1xx\stm32_cfg.h)(0x5C3D6BDC)
+I (..\STM32F1xx\stm32f1xx.h)(0x5C177A86)
+I (..\STM32F1xx\stm32f103xg.h)(0x5C177A83)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x5BF4E2B6)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5AB24248)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5AB24248)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5B2225E3)
+I (..\STM32F1xx\system_stm32f1xx.h)(0x5C177A1E)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C177A41)
+I (..\STM32F1xx\stm32f1xx_hal_conf.h)(0x5AE71B26)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x5BF35E2A)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x5BF4052B)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x5BF35E2A)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x5BF35E2A)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x5BF35E2A)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x5BF4052C)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x5BF35E2A)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x5C177A43)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x5BF4052D)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x5BF4052F)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x5BF35E2A)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x5BF35E2A)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_sd.h)(0x5BF40530)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_sdmmc.h)(0x5C177A5E)
+I (..\STM32F1xx\stm32f1xx_ll.h)(0x5BAC6F0E)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_adc.h)(0x5C3C0545)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_bus.h)(0x5C177A49)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_cortex.h)(0x5C177A4B)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_crc.h)(0x5C177A4D)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_dac.h)(0x5BF35E2A)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_dma.h)(0x5C177A4F)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_exti.h)(0x5C177A51)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_fsmc.h)(0x5BF35E2A)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_gpio.h)(0x5C177A54)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_i2c.h)(0x5BF35E2A)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_iwdg.h)(0x5C177A56)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_pwr.h)(0x5C3597E7)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_rcc.h)(0x5C177A5A)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_rtc.h)(0x5C177A5C)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_spi.h)(0x5C177A60)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_system.h)(0x5C177A63)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_tim.h)(0x5C177A65)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_usart.h)(0x5C177A67)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_utils.h)(0x5C177A69)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_wwdg.h)(0x5C177A6B)
+I (..\Application\IWDG\iwdg_task.h)(0x5C177938)
+I (..\Application\IWDG\iwdg_lib.h)(0x5C177937)
+I (..\Application\IWDG\iwdg_cfg.h)(0x5C177935)
+I (..\Application\GPIO\gpio_task.h)(0x5C177905)
+I (..\Application\GPIO\gpio_lib.h)(0x5C177904)
+I (..\Application\GPIO\gpio_cfg.h)(0x5C3C0333)
+I (..\Application\Timer\timer_task.h)(0x5C1779D7)
+I (..\Application\Timer\timer_lib.h)(0x5C1779D6)
+I (..\Application\Timer\timer_cfg.h)(0x5C6C15C0)
+I (..\Application\SysTick\systick_task.h)(0x5C3C0468)
+I (..\Application\SysTick\systick_lib.h)(0x5C3C0464)
+I (..\Application\SysTick\systick_cfg.h)(0x5C68135B)
+I (..\Application\Delay\delay_task.h)(0x5C177881)
+I (..\Application\Delay\delay_lib.h)(0x5C177881)
+I (..\Application\Delay\delay_cfg.h)(0x5C177881)
+I (..\Application\RFASKHW\rfaskhw_cfg.h)(0x5C3C0410)
+I (..\Application\RFASK\rfask_task.h)(0x5C1B5936)
+I (..\Application\RFASK\rfask_lib.h)(0x5C177998)
+I (..\Application\RFASK\rfask_cfg.h)(0x5C3C0406)
+I (..\Application\WM8510\wm8510_task.h)(0x5C3C04CC)
+I (..\Application\WM8510\wm8510_lib.h)(0x5C3C04C8)
+I (..\Application\WM8510\wm8510_cfg.h)(0x5C6BCD10)
+I (..\Application\I2C\i2c_task.h)(0x5C39A7F4)
+I (..\Application\I2C\i2c_lib.h)(0x5C39A7F5)
+I (..\Application\I2C\i2c_cfg.h)(0x5C39ED6A)
+I (..\Application\USART\usart_task.h)(0x5C3C04A2)
+I (..\Application\USART\usart_lib.h)(0x5C3C049F)
+I (..\Application\USART\usart_cfg.h)(0x5C3C0493)
+I (..\Application\CRC\crc_task.h)(0x5C177B6D)
+I (..\Application\CRC\crc_lib.h)(0x5C177B6D)
+I (..\Application\CRC\crc_cfg.h)(0x5C177B6D)
+I (..\Application\Power\power_task.h)(0x5C17798F)
+I (..\Application\Power\power_lib.h)(0x5C17798D)
+I (..\Application\Power\power_cfg.h)(0x5C17798B)
+I (..\Application\ADC\adc_task.h)(0x5C1778AD)
+I (..\Application\ADC\adc_lib.h)(0x5C1778AC)
+I (..\Application\ADC\adc_cfg.h)(0x5C1778AB)
+I (..\Application\LED\led_task.h)(0x5C177958)
+I (..\Application\LED\led_lib.h)(0x5C177956)
+I (..\Application\LED\led_cfg.h)(0x5C177954)
+I (..\Application\Key\key_task.h)(0x5C177943)
+I (..\Application\Key\key_lib.h)(0x5C177942)
+I (..\Application\Key\key_cfg.h)(0x5C433649)
+I (..\Application\Decode\decode_task.h)(0x5C1CB00F)
+I (..\Application\Decode\decode_lib.h)(0x5C6CF5D4)
+F (..\Application\Decode\decode_cfg_new.h)(0x5C6D3B54)()
 F (..\Application\Delay\delay_cfg.c)(0x5C681458)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Complier -I ../Doc -I ../STM32F1xx -I ../Drivers/CMSIS/Include -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Src -I ../Application/APP -I ../Application/IWDG -I ../Application/AD5593 -I ../Application/AT24Cxx -I ../Application/CRC -I ../Application/Delay -I ../Application/DHT11 -I ../Application/DS18B20 -I ../Application/GPIO -I ../Application/I2C -I ../Application/OneWire -I ../Application/PCF8563 -I ../Application/Random -I ../Application/SysTick -I ../Application/USART -I ../Application/WM8510 -I ../Application/HMC830 -I ../Application/ISP -I ../Application/SPI -I ../Application/LED -I ../Application/ADC -I ../Application/Timer -I ../Application/Key -I ../Application/Power -I ../Application/EEPROM -I ../Application/RFASK -I ../Application/FLASH -I ../Application/NRF2401 -I ../Application/LCD1602 -I ../Application/BKP -I ../Application/SHT2x -I ../Application/Decode -I ../Application/CSS -I ../Application/ADS8688 -I ../Application/IAP -I ../Application/OLED -I ../Application/WWDG -I ../Application/W25Qxx -I ../Application/RFASKHW -I ../Application/DS1302 -I ../Application/ENC28J60 -I ../Application/PID -I ../Application/ADS1256 -I ../Application/RTC -I ../Application/PVD -I ../Application/MyMalloc -fgnu-I./RTE/_STM32F103VGT6Project-ID:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-ID:/Keil_v5/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F10X_XL -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER -DHSE_VALUE="8000000" -DSTM32F103xG-o stm32f103vgt6project/delay_cfg.o -MD)
 I (..\Application\Delay\delay_cfg.h)(0x5C177881)
 I (..\Complier\complier_lib.h)(0x5C177BD8)
@@ -5504,8 +5504,8 @@ I (..\Application\LED\led_cfg.h)(0x5C177954)
 I (..\Application\Key\key_task.h)(0x5C177943)
 I (..\Application\Key\key_lib.h)(0x5C177942)
 I (..\Application\Decode\decode_task.h)(0x5C1CB00F)
-I (..\Application\Decode\decode_lib.h)(0x5C1CB00F)
-I (..\Application\Decode\decode_cfg.h)(0x5C3C0301)
+I (..\Application\Decode\decode_lib.h)(0x5C6CF5D4)
+I (..\Application\Decode\decode_cfg_new.h)(0x5C6D3B54)
 F (..\Application\Key\key_cfg.h)(0x5C433649)()
 F (..\Application\Key\key_lib.c)(0x5C1B9F30)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Complier -I ../Doc -I ../STM32F1xx -I ../Drivers/CMSIS/Include -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Src -I ../Application/APP -I ../Application/IWDG -I ../Application/AD5593 -I ../Application/AT24Cxx -I ../Application/CRC -I ../Application/Delay -I ../Application/DHT11 -I ../Application/DS18B20 -I ../Application/GPIO -I ../Application/I2C -I ../Application/OneWire -I ../Application/PCF8563 -I ../Application/Random -I ../Application/SysTick -I ../Application/USART -I ../Application/WM8510 -I ../Application/HMC830 -I ../Application/ISP -I ../Application/SPI -I ../Application/LED -I ../Application/ADC -I ../Application/Timer -I ../Application/Key -I ../Application/Power -I ../Application/EEPROM -I ../Application/RFASK -I ../Application/FLASH -I ../Application/NRF2401 -I ../Application/LCD1602 -I ../Application/BKP -I ../Application/SHT2x -I ../Application/Decode -I ../Application/CSS -I ../Application/ADS8688 -I ../Application/IAP -I ../Application/OLED -I ../Application/WWDG -I ../Application/W25Qxx -I ../Application/RFASKHW -I ../Application/DS1302 -I ../Application/ENC28J60 -I ../Application/PID -I ../Application/ADS1256 -I ../Application/RTC -I ../Application/PVD -I ../Application/MyMalloc -fgnu-I./RTE/_STM32F103VGT6Project-ID:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-ID:/Keil_v5/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F10X_XL -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER -DHSE_VALUE="8000000" -DSTM32F103xG-o stm32f103vgt6project/key_lib.o -MD)
 I (..\Application\Key\key_lib.h)(0x5C177942)
@@ -5607,8 +5607,8 @@ I (..\Application\LED\led_lib.h)(0x5C177956)
 I (..\Application\LED\led_cfg.h)(0x5C177954)
 I (..\Application\Key\key_task.h)(0x5C177943)
 I (..\Application\Decode\decode_task.h)(0x5C1CB00F)
-I (..\Application\Decode\decode_lib.h)(0x5C1CB00F)
-I (..\Application\Decode\decode_cfg.h)(0x5C3C0301)
+I (..\Application\Decode\decode_lib.h)(0x5C6CF5D4)
+I (..\Application\Decode\decode_cfg_new.h)(0x5C6D3B54)
 F (..\Application\Key\key_lib.h)(0x5C177942)()
 F (..\Application\Key\key_task.c)(0x5C1B9F30)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Complier -I ../Doc -I ../STM32F1xx -I ../Drivers/CMSIS/Include -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Src -I ../Application/APP -I ../Application/IWDG -I ../Application/AD5593 -I ../Application/AT24Cxx -I ../Application/CRC -I ../Application/Delay -I ../Application/DHT11 -I ../Application/DS18B20 -I ../Application/GPIO -I ../Application/I2C -I ../Application/OneWire -I ../Application/PCF8563 -I ../Application/Random -I ../Application/SysTick -I ../Application/USART -I ../Application/WM8510 -I ../Application/HMC830 -I ../Application/ISP -I ../Application/SPI -I ../Application/LED -I ../Application/ADC -I ../Application/Timer -I ../Application/Key -I ../Application/Power -I ../Application/EEPROM -I ../Application/RFASK -I ../Application/FLASH -I ../Application/NRF2401 -I ../Application/LCD1602 -I ../Application/BKP -I ../Application/SHT2x -I ../Application/Decode -I ../Application/CSS -I ../Application/ADS8688 -I ../Application/IAP -I ../Application/OLED -I ../Application/WWDG -I ../Application/W25Qxx -I ../Application/RFASKHW -I ../Application/DS1302 -I ../Application/ENC28J60 -I ../Application/PID -I ../Application/ADS1256 -I ../Application/RTC -I ../Application/PVD -I ../Application/MyMalloc -fgnu-I./RTE/_STM32F103VGT6Project-ID:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-ID:/Keil_v5/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F10X_XL -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER -DHSE_VALUE="8000000" -DSTM32F103xG-o stm32f103vgt6project/key_task.o -MD)
 I (..\Application\Key\key_task.h)(0x5C177943)
@@ -5710,8 +5710,8 @@ I (..\Application\LED\led_task.h)(0x5C177958)
 I (..\Application\LED\led_lib.h)(0x5C177956)
 I (..\Application\LED\led_cfg.h)(0x5C177954)
 I (..\Application\Decode\decode_task.h)(0x5C1CB00F)
-I (..\Application\Decode\decode_lib.h)(0x5C1CB00F)
-I (..\Application\Decode\decode_cfg.h)(0x5C3C0301)
+I (..\Application\Decode\decode_lib.h)(0x5C6CF5D4)
+I (..\Application\Decode\decode_cfg_new.h)(0x5C6D3B54)
 F (..\Application\Key\key_task.h)(0x5C177943)()
 F (..\Application\LCD1602\lcd1602_cfg.c)(0x5C3C037F)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Complier -I ../Doc -I ../STM32F1xx -I ../Drivers/CMSIS/Include -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Src -I ../Application/APP -I ../Application/IWDG -I ../Application/AD5593 -I ../Application/AT24Cxx -I ../Application/CRC -I ../Application/Delay -I ../Application/DHT11 -I ../Application/DS18B20 -I ../Application/GPIO -I ../Application/I2C -I ../Application/OneWire -I ../Application/PCF8563 -I ../Application/Random -I ../Application/SysTick -I ../Application/USART -I ../Application/WM8510 -I ../Application/HMC830 -I ../Application/ISP -I ../Application/SPI -I ../Application/LED -I ../Application/ADC -I ../Application/Timer -I ../Application/Key -I ../Application/Power -I ../Application/EEPROM -I ../Application/RFASK -I ../Application/FLASH -I ../Application/NRF2401 -I ../Application/LCD1602 -I ../Application/BKP -I ../Application/SHT2x -I ../Application/Decode -I ../Application/CSS -I ../Application/ADS8688 -I ../Application/IAP -I ../Application/OLED -I ../Application/WWDG -I ../Application/W25Qxx -I ../Application/RFASKHW -I ../Application/DS1302 -I ../Application/ENC28J60 -I ../Application/PID -I ../Application/ADS1256 -I ../Application/RTC -I ../Application/PVD -I ../Application/MyMalloc -fgnu-I./RTE/_STM32F103VGT6Project-ID:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-ID:/Keil_v5/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F10X_XL -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER -DHSE_VALUE="8000000" -DSTM32F103xG-o stm32f103vgt6project/lcd1602_cfg.o -MD)
 I (..\Application\LCD1602\lcd1602_cfg.h)(0x5C17794A)
@@ -8030,8 +8030,8 @@ I (..\Application\Key\key_task.h)(0x5C177943)
 I (..\Application\Key\key_lib.h)(0x5C177942)
 I (..\Application\Key\key_cfg.h)(0x5C433649)
 I (..\Application\Decode\decode_task.h)(0x5C1CB00F)
-I (..\Application\Decode\decode_lib.h)(0x5C1CB00F)
-I (..\Application\Decode\decode_cfg.h)(0x5C3C0301)
+I (..\Application\Decode\decode_lib.h)(0x5C6CF5D4)
+I (..\Application\Decode\decode_cfg_new.h)(0x5C6D3B54)
 F (..\Application\RFASK\rfask_task.h)(0x5C1B5936)()
 F (..\Application\RFASKHW\rfaskhw_cfg.c)(0x5C0A6F48)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Complier -I ../Doc -I ../STM32F1xx -I ../Drivers/CMSIS/Include -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Src -I ../Application/APP -I ../Application/IWDG -I ../Application/AD5593 -I ../Application/AT24Cxx -I ../Application/CRC -I ../Application/Delay -I ../Application/DHT11 -I ../Application/DS18B20 -I ../Application/GPIO -I ../Application/I2C -I ../Application/OneWire -I ../Application/PCF8563 -I ../Application/Random -I ../Application/SysTick -I ../Application/USART -I ../Application/WM8510 -I ../Application/HMC830 -I ../Application/ISP -I ../Application/SPI -I ../Application/LED -I ../Application/ADC -I ../Application/Timer -I ../Application/Key -I ../Application/Power -I ../Application/EEPROM -I ../Application/RFASK -I ../Application/FLASH -I ../Application/NRF2401 -I ../Application/LCD1602 -I ../Application/BKP -I ../Application/SHT2x -I ../Application/Decode -I ../Application/CSS -I ../Application/ADS8688 -I ../Application/IAP -I ../Application/OLED -I ../Application/WWDG -I ../Application/W25Qxx -I ../Application/RFASKHW -I ../Application/DS1302 -I ../Application/ENC28J60 -I ../Application/PID -I ../Application/ADS1256 -I ../Application/RTC -I ../Application/PVD -I ../Application/MyMalloc -fgnu-I./RTE/_STM32F103VGT6Project-ID:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-ID:/Keil_v5/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F10X_XL -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER -DHSE_VALUE="8000000" -DSTM32F103xG-o stm32f103vgt6project/rfaskhw_cfg.o -MD)
 F (..\Application\RFASKHW\rfaskhw_cfg.h)(0x5C3C0410)()

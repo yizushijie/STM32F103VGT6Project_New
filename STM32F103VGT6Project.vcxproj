@@ -82,7 +82,7 @@
     <ClInclude Include="..\Application\DS18B20\ds18b20_cfg.h" />
     <ClInclude Include="..\Application\DS18B20\ds18b20_lib.h" />
     <ClInclude Include="..\Application\DS18B20\ds18b20_task.h" />
-    <ClInclude Include="..\Application\Decode\decode_cfg.h" />
+    <ClInclude Include="..\Application\Decode\decode_cfg_new.h" />
     <ClInclude Include="..\Application\Decode\decode_lib.h" />
     <ClInclude Include="..\Application\Decode\decode_task.h" />
     <ClInclude Include="..\Application\Delay\delay_cfg.h" />
@@ -248,7 +248,7 @@
     <ClCompile Include="..\Application\DS18B20\ds18b20_cfg.c" />
     <ClCompile Include="..\Application\DS18B20\ds18b20_lib.c" />
     <ClCompile Include="..\Application\DS18B20\ds18b20_task.c" />
-    <ClCompile Include="..\Application\Decode\decode_cfg.c" />
+    <ClCompile Include="..\Application\Decode\decode_cfg_new.c" />
     <ClCompile Include="..\Application\Decode\decode_lib.c" />
     <ClCompile Include="..\Application\Decode\decode_task.c" />
     <ClCompile Include="..\Application\Delay\delay_cfg.c" />

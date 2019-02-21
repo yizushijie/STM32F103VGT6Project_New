@@ -373,7 +373,7 @@
             <ScatterFile>STM32F103VGT6Project\STM32F103VGT6Project.sct</ScatterFile>
             <IncludeLibs></IncludeLibs>
             <IncludeLibsPath></IncludeLibsPath>
-            <Misc>--remove</Misc>
+            <Misc></Misc>
             <LinkerInputFile></LinkerInputFile>
             <DisabledWarnings></DisabledWarnings>
           </LDads>
@@ -974,16 +974,6 @@
           <GroupName>Application/Decode</GroupName>
           <Files>
             <File>
-              <FileName>decode_cfg.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Application\Decode\decode_cfg.c</FilePath>
-            </File>
-            <File>
-              <FileName>decode_cfg.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Application\Decode\decode_cfg.h</FilePath>
-            </File>
-            <File>
               <FileName>decode_lib.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Application\Decode\decode_lib.c</FilePath>
@@ -1002,6 +992,16 @@
               <FileName>decode_task.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\Application\Decode\decode_task.h</FilePath>
+            </File>
+            <File>
+              <FileName>decode_cfg_new.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Application\Decode\decode_cfg_new.c</FilePath>
+            </File>
+            <File>
+              <FileName>decode_cfg_new.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Application\Decode\decode_cfg_new.h</FilePath>
             </File>
           </Files>
         </Group>

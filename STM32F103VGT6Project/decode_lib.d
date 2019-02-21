@@ -1,6 +1,7 @@
 stm32f103vgt6project/decode_lib.o: ..\Application\Decode\decode_lib.c \
-  ..\Application\Decode\decode_lib.h ..\Application\Decode\decode_cfg.h \
-  ..\Complier\complier_lib.h ..\Complier\complier_cfg.h \
+  ..\Application\Decode\decode_lib.h \
+  ..\Application\Decode\decode_cfg_new.h ..\Complier\complier_lib.h \
+  ..\Complier\complier_cfg.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
