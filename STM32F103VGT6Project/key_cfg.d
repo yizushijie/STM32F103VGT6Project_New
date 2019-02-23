@@ -76,4 +76,4 @@ stm32f103vgt6project/key_cfg.o: ..\Application\Key\key_cfg.c \
   ..\Application\LED\led_lib.h ..\Application\LED\led_cfg.h \
   ..\Application\Key\key_task.h ..\Application\Key\key_lib.h \
   ..\Application\Decode\decode_task.h ..\Application\Decode\decode_lib.h \
-  ..\Application\Decode\decode_cfg_new.h
+  ..\Application\Decode\decode_cfg.h

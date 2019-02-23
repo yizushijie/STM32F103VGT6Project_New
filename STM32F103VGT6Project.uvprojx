@@ -337,7 +337,7 @@
             <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls>-fgnu</MiscControls>
-              <Define>USE_FULL_LL_DRIVER,USE_HAL_DRIVER,HSE_VALUE=8000000,STM32F103xG</Define>
+              <Define>USE_FULL_LL_DRIVER,USE_HAL_DRIVER,HSE_VALUE=8000000UL,STM32F103xG</Define>
               <Undefine></Undefine>
               <IncludePath>..\Complier;..\Doc;..\STM32F1xx;../Drivers/CMSIS/Include;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Src;..\Application\APP;..\Application\IWDG;..\Application\AD5593;..\Application\AT24Cxx;..\Application\CRC;..\Application\Delay;..\Application\DHT11;..\Application\DS18B20;..\Application\GPIO;..\Application\I2C;..\Application\OneWire;..\Application\PCF8563;..\Application\Random;..\Application\SysTick;..\Application\USART;..\Application\WM8510;..\Application\HMC830;..\Application\ISP;..\Application\SPI;..\Application\LED;..\Application\ADC;..\Application\Timer;..\Application\Key;..\Application\Power;..\Application\EEPROM;..\Application\RFASK;..\Application\FLASH;..\Application\NRF2401;..\Application\LCD1602;..\Application\BKP;..\Application\SHT2x;..\Application\Decode;..\Application\CSS;..\Application\ADS8688;..\Application\IAP;..\Application\OLED;..\Application\WWDG;..\Application\W25Qxx;..\Application\RFASKHW;..\Application\DS1302;..\Application\ENC28J60;..\Application\PID;..\Application\ADS1256;..\Application\RTC;..\Application\PVD;..\Application\MyMalloc</IncludePath>
             </VariousControls>
@@ -994,14 +994,14 @@
               <FilePath>..\Application\Decode\decode_task.h</FilePath>
             </File>
             <File>
-              <FileName>decode_cfg_new.c</FileName>
+              <FileName>decode_cfg.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Application\Decode\decode_cfg_new.c</FilePath>
+              <FilePath>..\Application\Decode\decode_cfg.c</FilePath>
             </File>
             <File>
-              <FileName>decode_cfg_new.h</FileName>
+              <FileName>decode_cfg.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\Application\Decode\decode_cfg_new.h</FilePath>
+              <FilePath>..\Application\Decode\decode_cfg.h</FilePath>
             </File>
           </Files>
         </Group>

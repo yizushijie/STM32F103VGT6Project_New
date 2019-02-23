@@ -48,7 +48,7 @@
 "stm32f103vgt6project\css_task.o"
 "stm32f103vgt6project\decode_lib.o"
 "stm32f103vgt6project\decode_task.o"
-"stm32f103vgt6project\decode_cfg_new.o"
+"stm32f103vgt6project\decode_cfg.o"
 "stm32f103vgt6project\delay_cfg.o"
 "stm32f103vgt6project\delay_lib.o"
 "stm32f103vgt6project\delay_task.o"

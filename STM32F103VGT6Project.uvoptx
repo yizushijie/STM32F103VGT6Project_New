@@ -120,6 +120,7 @@
         <SetRegEntry>
           <Number>0</Number>
           <Key>DLGUARM</Key>
+          <Name>??燩鐆??燩鐆??</Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
@@ -147,24 +148,7 @@
           <Name>UL2CM3(-S0 -C0 -P0 )  -FN1 -FC1000 -FD20000000 -FF0STM32F10x_1024 -FL0100000 -FS08000000 -FP0($$Device:STM32F103VG$Flash\STM32F10x_1024.FLM)</Name>
         </SetRegEntry>
       </TargetDriverDllRegistry>
-      <Breakpoint>
-        <Bp>
-          <Number>0</Number>
-          <Type>0</Type>
-          <LineNumber>1160</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134228930</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>..\Application\Decode\decode_cfg_new.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\STM32F103VGT6Project\../Application/Decode/decode_cfg_new.c\1160</Expression>
-        </Bp>
-      </Breakpoint>
+      <Breakpoint/>
       <WatchWindow1>
         <Ww>
           <count>0</count>
@@ -249,22 +233,37 @@
         <Ww>
           <count>16</count>
           <WinNumber>1</WinNumber>
-          <ItemText>g_DecodeStep</ItemText>
+          <ItemText>g_DecodeByteNewVal</ItemText>
         </Ww>
         <Ww>
           <count>17</count>
           <WinNumber>1</WinNumber>
-          <ItemText>g_DecodeByteNewVal</ItemText>
+          <ItemText>g_DecodeByteOldVal</ItemText>
         </Ww>
         <Ww>
           <count>18</count>
           <WinNumber>1</WinNumber>
-          <ItemText>g_DecodeByteOldVal</ItemText>
+          <ItemText>g_DecodeFrameCount</ItemText>
         </Ww>
         <Ww>
           <count>19</count>
           <WinNumber>1</WinNumber>
-          <ItemText>g_DecodeFrameCount</ItemText>
+          <ItemText>g_DecodeOldStep</ItemText>
+        </Ww>
+        <Ww>
+          <count>20</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>g_DecodeNewStep</ItemText>
+        </Ww>
+        <Ww>
+          <count>21</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>g_DecodePulseIndex</ItemText>
+        </Ww>
+        <Ww>
+          <count>22</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>g_DecodePulseIndex</ItemText>
         </Ww>
       </WatchWindow1>
       <WatchWindow2>
@@ -1777,7 +1776,7 @@
 
   <Group>
     <GroupName>Application/Decode</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -1836,8 +1835,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Application\Decode\decode_cfg_new.c</PathWithFileName>
-      <FilenameWithoutPath>decode_cfg_new.c</FilenameWithoutPath>
+      <PathWithFileName>..\Application\Decode\decode_cfg.c</PathWithFileName>
+      <FilenameWithoutPath>decode_cfg.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1848,8 +1847,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Application\Decode\decode_cfg_new.h</PathWithFileName>
-      <FilenameWithoutPath>decode_cfg_new.h</FilenameWithoutPath>
+      <PathWithFileName>..\Application\Decode\decode_cfg.h</PathWithFileName>
+      <FilenameWithoutPath>decode_cfg.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -3057,7 +3056,7 @@
 
   <Group>
     <GroupName>Application/LED</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -3809,7 +3808,7 @@
 
   <Group>
     <GroupName>Application/RFASK</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -4161,7 +4160,7 @@
 
   <Group>
     <GroupName>Application/SysTick</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -4241,7 +4240,7 @@
 
   <Group>
     <GroupName>Application/Timer</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -4553,7 +4552,7 @@
 
   <Group>
     <GroupName>Application/WM8510</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
